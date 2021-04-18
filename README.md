@@ -21,17 +21,17 @@ We are attempting to build a model that can reliably predict who is wearing a ma
 
 We break down the steps of our project and how we arrived at our final model and working prototype below.
 
-##### Data
+#### Data
 
 We began by looking through the data found on github.
 
 
-##### Modeling
+#### Modeling
 
 We employed a convolutional neural network on our data to create a model with .99 testing accuracy.
 
 
-##### Video Detection
+#### Video Detection
 
 We are currently working on how to bring in computer vision and how to have our model actively predicting in real time.
 
