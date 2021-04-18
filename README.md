@@ -9,11 +9,13 @@ Data science for social good project as part of a data science bootcamp. Compute
 * [Conclusions and Recommendations](#user-content-conclusions-and-recommendations)
 * [Additional Information](#user-content-additional-information)
 
+---
 
 ### Problem Statement
 
 We are attempting to build a model that can reliably predict who is wearing a mask correctly, incorrectly, or not wearing a mask at all.
 
+---
 
 ### Executive Summary
 
@@ -33,11 +35,13 @@ We employed a convolutional neural network on our data to create a model with .9
 
 We are currently working on how to bring in computer vision and how to have our model actively predicting in real time.
 
+---
 
 ### Conclusions and Recommendations
 
 Our conclusion is that you should wear a mask. And our model thinks so too.
 
+---
 
 ### Additional Information
 
