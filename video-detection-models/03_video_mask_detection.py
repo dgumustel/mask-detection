@@ -91,8 +91,8 @@ while True:
         # unpack the bounding box and predictions
         (startX, startY, endX, endY) = box
         Unmasked, Masked, Incorrectly_Masked = pred
-        # determine the class label and color we'll use to draw
-        # the bounding box and text
+        # determine the class label and color we'll use to draw the bounding box and text
+        # Just a note, the colors below are BGR, if you want to change the colors of the bounding boxes
         if max([Unmasked, Masked, Incorrectly_Masked]) == Masked:
             label = 'Masked'
             color = (0, 255, 0)
@@ -101,7 +101,7 @@ while True:
             color = (0, 0, 255)
         else:
             label = 'Incorrectly_Masked'
-            color = (255, 140, 0)
+            color = (0, 255, 255)
         # Including probability in the labeling
         label = "{}: {:.2f}%".format(label, max([Unmasked, Masked, Incorrectly_Masked]) * 100)
         # This displays the label and bounding box rectangle on the output frame
