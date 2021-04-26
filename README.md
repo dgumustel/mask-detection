@@ -68,26 +68,26 @@ Future areas of opportunity:
 --
 
 ### Additional Resources
+
 **Internet Resources in relation to health and/or machine learning:**
+
 [One Millisecond Face Alignment with an Ensemble of Regression Trees
-Vahid Kazemi and Josephine Sullivan
-KTH, Royal Institute of Technology
-Computer Vision and Active Perception Lab
-Teknikringen 14, Stockholm, Sweden](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf)
+Vahid Kazemi and Josephine Sullivan KTH, Royal Institute of Technology
+Computer Vision and Active Perception Lab Teknikringen 14, Stockholm, Sweden](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf)
 
 [Deep Learning Framework to Detect Face Masks
 from Video Footage  Aniruddha Srinivas Joshi , Shreyas Srinivas Joshi Goutham Kanahasabai, Rudraksh Kapil, Savyasachi Gupta National Institute of Technology, Warangal, Telangana, Indi
 https://arxiv.org/pdf/2011.02371v1.pdf](https://arxiv.org/pdf/2011.02371v1.pdf)
 
-[Keras ImageDataGenerator and Data Augmentation
-by Adrian Rosebrock on July 8, 2019
-https://www.pyimagesearch.com/2019/07/08/keras-imagedatagenerator-and-data-augmentation/](https://www.pyimagesearch.com/2019/07/08/keras-imagedatagenerator-and-data-augmentation/)
-
-Your Guide to Masks Updated Apr. 6, 2021
-[https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html)
+[Keras ImageDataGenerator and Data Augmentation by Adrian Rosebrock on July 8, 2019](https://www.pyimagesearch.com/2019/07/08/keras-imagedatagenerator-and-data-augmentation/)
+[Your Guide to Masks Updated Apr. 6, 2021](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html)
 
 **Blog posts:**
+
 https://medium.com/@iselagradilla94/multi-task-cascaded-convolutional-networks-mtcnn-for-face-detection-and-facial-landmark-alignment-7c21e8007923
+
 https://medium.com/analytics-vidhya/image-classification-with-mobilenet-cc6fbb2cd470
+
 https://towardsdatascience.com/mobilenetv2-inverted-residuals-and-linear-bottlenecks-8a4362f4ffd5
+
 https://towardsdatascience.com/face-detection-models-which-to-use-and-why-d263e82c302c
