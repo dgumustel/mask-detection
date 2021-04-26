@@ -2,7 +2,7 @@
 
 Team members: Umair Evans, Derya Gumustel, Tarun Nappoly & Amir Semsarzadeh
 
-COVID-19 is a global pandemic that has expanded the requirement for masks in public areas as means of protecting ourselves and curtailing the virus. Masks are not only crucial, but also need to be worn and worn correctly, to be effective. What may appear as a no-brainer has become a difficult and cumbersome challenge to enforce both on a public and private level.
+COVID-19 is a global pandemic that has expanded the requirement for masks in public areas as means of protecting ourselves and curtailing the virus. Masks are not only crucial, but also need to be worn and worn correctly, to be effective. What may appear as a no-brainer has become a difficult and cumbersome challenge to enforce both on a public and private level. 
 
 We initially observe that object detection through CNN is an effective strategy in determining
 whether an individual is wearing a mask properly, improperly, or not at all. We define correctly as having nose, mouth, and chin covered. Improperly indicates that one of these three areas of the face are exposed or partially exposed.
