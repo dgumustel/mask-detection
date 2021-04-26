@@ -2,10 +2,10 @@
 
 Team members: Umair Evans, Derya Gumustel, Tarun Nappoly & Amir Semsarzadeh
 
-COVID-19 is a global pandemic that has expanded the requirement for masks in public areas as means of protecting ourselves and curtailing the virus. Masks are not only crucial but also need to be worn and worn correctly to be effective. What may appear as a no-brainer has become a difficult and cumbersome challenge to enforce both on a public and private level.
+COVID-19 is a global pandemic that has expanded the requirement for masks in public areas as means of protecting ourselves and curtailing the virus. Masks are not only crucial, but also need to be worn and worn correctly, to be effective. What may appear as a no-brainer has become a difficult and cumbersome challenge to enforce both on a public and private level.
 
 We initially observe that object detection through CNN is an effective strategy in determining
-whether an individual is wearing a mask properly, incorrectly, or not at all. We define correctly as having nose, mouth, and chin covered. Improper indicates that one of these three areas of the face are exposed or partially exposed.
+whether an individual is wearing a mask properly, improperly, or not at all. We define correctly as having nose, mouth, and chin covered. Improperly indicates that one of these three areas of the face are exposed or partially exposed.
 
 Our goal is the application of this model to both photos and video to enhance and improve public well being.
 
@@ -44,7 +44,7 @@ It is important to note that while we may have no lack of diversity as it relate
 
 #### Modeling
 
-To effectively solve this problem, we took a direct approach. We built a three-tier classifier. We used a base model and train a custom head layer that will separate faces into one of three classes: no mask, mask worn incorrectly, and mask worn correctly. We utilized a convolutional neural network that consisted of some trial and error. We settled on two layers at 16 nodes each with 25 epochs, in addition to a pooling layer after each convolutional layer. We were faced with the limitations of computing which required exploring Google Colab and then back to the local environment after hitting RAM limitations. Our final model had 99% testing accuracy.
+To effectively solve this problem, we took a direct approach. We built a three-tier classifier. We used a base model and trained a custom head layer that will separate faces into one of three classes: no mask, mask worn incorrectly, and mask worn correctly. We utilized a convolutional neural network that consisted of some trial and error. We settled on two layers at 16 nodes each, with 25 epochs, in addition to a pooling layer after each convolutional layer. We were faced with the limitations of computing, which required exploring Google Colab, and then heading back to the local environment after hitting RAM limitations. Our final model had 99% testing accuracy.
 
 
 #### Video Detection
@@ -59,11 +59,11 @@ Face Mask-Detection: Multi-Classification using Convolutional Neural Networks (C
 
 Future areas of opportunity:
 
-1). Expansive usage of more data to increase variety and diversity of material to train data on. In particular groups of people and additional face covering than the typical blue surgical mask.
+1). Expansive usage of more data to increase variety and diversity of material to train data on. In particular groups of people and additional face covering other than the typical blue surgical mask.
 
 2). Simpler models are better due to computational resources and clarity. This can not be stressed enough in that it allows for replication and flexibility, which only improves the model.
 
-3). Never start from zero! Past efforts of others cement our success. It is important to build on the shoulders of those that have produced successful results because the collective effort is what can dramatically enhance the next iteration of this experiment.
+3). Never start from zero! Past efforts of others cement our success. It is important to build on the shoulders of those that have produced successful results, because the collective effort is what can dramatically enhance the next iteration of this experiment.
 
 ---
 
