@@ -65,7 +65,7 @@ Future areas of opportunity:
 
 3). Never start from zero! Past efforts of others cement our success. It is important to build on the shoulders of those that have produced successful results because the collective effort is what can dramatically enhance the next iteration of this experiment.
 
---
+---
 
 ### Additional Resources
 
