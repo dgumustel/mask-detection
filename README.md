@@ -44,7 +44,7 @@ It is important to note that while we may have no lack of diversity as it relate
 
 #### Modeling
 
-To effectively solve this problem, we took a direct approach. We built a three-tier classifier. We used a base model and train a custom head layer that will separate faces into one of three classes: no mask, mask worn incorrectly, and mask worn correctly. We utilized a convolutional neural network that consisted of some trial and error. We settled on two layers at 16 nodes each with (fill in the number) epochs, in addition to a pooling layer after each convolutional layer. We were faced with the limitations of computing which required exploring Google Colab and then back to the local environment after hitting RAM limitations. Our final model had ( fill in with final amount) testing accuracy.
+To effectively solve this problem, we took a direct approach. We built a three-tier classifier. We used a base model and train a custom head layer that will separate faces into one of three classes: no mask, mask worn incorrectly, and mask worn correctly. We utilized a convolutional neural network that consisted of some trial and error. We settled on two layers at 16 nodes each with 25 epochs, in addition to a pooling layer after each convolutional layer. We were faced with the limitations of computing which required exploring Google Colab and then back to the local environment after hitting RAM limitations. Our final model had 99% testing accuracy.
 
 
 #### Video Detection
@@ -55,7 +55,7 @@ We utilized OpenCV 4.5.2, a library of programming functions mainly aimed at rea
 
 ### Conclusions and Recommendations
 
-Face Mask-Detection: Multi-Classification using Convolutional Neural Networks (CNN) model had a (fill in the blank) accuracy on both the training and testing data. Measuring loss through (fill in the blank) we were able to achieve successful results. Drilling into the individual classes, "With Mask" performed the best, with a (fill in the blank) f-1 score and (fill in the blank) recall. This reinforced three main conclusions going forward. Our model's strength is predicting those who are masked and unmasked, but did not demonstrate the same precision with partially or improperly worn face masks.
+Face Mask-Detection: Multi-Classification using Convolutional Neural Networks (CNN) model had a 99% accuracy on both the training and testing data. Measuring loss through categorical cross-entropy we were able to achieve successful results. Drilling into the individual classes, "With Mask" performed the best, with a .99 precision and .99 recall. This reinforced three main conclusions going forward. Our model's strength is predicting those who are masked and unmasked, but did not demonstrate the same precision with partially or improperly worn face masks.
 
 Future areas of opportunity:
 
