@@ -32,7 +32,10 @@ The essential premise of our experiment is to use machine learning to create a d
 #### Data
 
 Data provided by Tero Karras who is a Principal Research Scientist at NVIDIA.
-[Click here for link](https://github.com/NVlabs/ffhq-dataset)
+
+[Face dataset without masks](https://github.com/NVlabs/ffhq-dataset)
+
+[Face dataset with masks](https://github.com/cabani/MaskedFace-Net)
 
 
 The dataset consists of 70,000 high-quality PNG images at 1024×1024 resolution and contains considerable variation in terms of age, ethnicity and image background. It also has good coverage of accessories such as eyeglasses, sunglasses, hats, etc. The images were crawled from Flickr and are inherently subject to the bias and disposition of that network.
@@ -40,6 +43,14 @@ The dataset consists of 70,000 high-quality PNG images at 1024×1024 resolution 
 For our purposes we took a small sample (started with 3,000 images before scaling up to 9,000) and reduced the images to 256 by 256 pixels in an attempt to improve computational efficiency. Various automatic filters were used to prune the images to optimize learning. To deal with the constraints of computational resources on typical machines we reduced the images outside of the modeling process. We must also stress that our data as it relates to one of our classifications might be imbalanced, and future iterations should strengthen the incorrectly masked class.
 
 It is important to note that while we may have no lack of diversity as it relates to people, it is a different story when it comes to masks. The blue surgical mask that we often see is the most common, but future iterations of this experiment should contain a larger diversity of masks.
+
+The images are contained in the following folders: 
+
+Folders 04000, 05000, and 06000 contain photos of people wearing masks correctly.
+
+Folders 09000, 10000, and 11000 contain photos of people not wearing masks.
+
+Folders 13000, 14000, and 15000 contain photos of people wearing masks incorrectly.
 
 
 #### Modeling
