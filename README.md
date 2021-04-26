@@ -68,14 +68,6 @@ Future areas of opportunity:
 --
 
 ### Additional Resources
-
-[One Millisecond Face Alignment with an Ensemble of Regression Trees
-Vahid Kazemi and Josephine Sullivan
-KTH, Royal Institute of Technology
-Computer Vision and Active Perception Lab
-Teknikringen 14, Stockholm, Sweden](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf)
-
-### Additional Resources
 **Internet Resources in relation to health and/or machine learning:**
 [One Millisecond Face Alignment with an Ensemble of Regression Trees
 Vahid Kazemi and Josephine Sullivan
