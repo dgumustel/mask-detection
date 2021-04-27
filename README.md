@@ -66,7 +66,7 @@ We utilized OpenCV 4.5.2, a library of programming functions mainly aimed at rea
 
 ### Conclusions and Recommendations
 
-Face Mask-Detection: Multi-Classification using Convolutional Neural Networks (CNN) model had a 99% accuracy on both the training and testing data. Measuring loss through categorical cross-entropy we were able to achieve successful results. Drilling into the individual classes, "With Mask" performed the best, with a .99 precision and .99 recall. This reinforced three main conclusions going forward. Our model's strength is predicting those who are masked and unmasked, but did not demonstrate the same precision with partially or improperly worn face masks.
+Face Mask-Detection: Multiclass Classification using Convolutional Neural Networks (CNN) model had a 99% accuracy on both the training and testing data. Measuring loss through categorical cross-entropy we were able to achieve successful results. Drilling into the individual classes, "With Mask" performed the best, with a .99 precision and .99 recall. This reinforced three main conclusions going forward. Our model's strength is predicting those who are masked and unmasked, but did not demonstrate the same precision with partially or improperly worn face masks.
 
 Future areas of opportunity:
 
