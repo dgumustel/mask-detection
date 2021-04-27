@@ -1,4 +1,4 @@
-# Face Mask-Detection: Multi-Classification using Convolutional Neural Networks (CNN)
+# Face Mask-Detection: Multiclass Classification using Convolutional Neural Networks (CNN)
 
 Team members: Umair Evans, Derya Gumustel, Tarun Nappoly & Amir Semsarzadeh
 
