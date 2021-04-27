@@ -65,7 +65,7 @@ weightsPath = os.path.sep.join(['./opencv_face_detector/', "res10_300x300_ssd_it
 face_detector = cv2.dnn.readNet(prototxtPath, weightsPath)
 # the below loads our model
 print("Loading Face Mask Detection Model")
-model = load_model('face_model_2.h5')
+model = load_model('mask_model.h5')
 # Start the video stream with the below
 print("Video Stream Is Beginning")
 vs = VideoStream(src=0).start()
